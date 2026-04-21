@@ -8,7 +8,7 @@ class TicTacToe {
 
     static void toss() {
         Random rand = new Random();
-        int toss = rand.nextInt(2); // 0 or 1
+        int toss = rand.nextInt(2); 
 
         if (toss == 0) {
             currentPlayer = "Player 1";
