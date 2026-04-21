@@ -11,7 +11,7 @@ class TicTacToe {
 
     public static void main(String[] args) {
 
-        int slot = 5; // example
+        int slot = 5; 
 
         int[] position = convertToIndex(slot);
 
